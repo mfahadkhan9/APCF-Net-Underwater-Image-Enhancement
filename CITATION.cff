@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying APCF-Net article."
+title: "APCF-Net: Adaptive Piecewise Curve and Multi-Color Attention Fusion Network for Underwater Image Restoration and Enhancement"
+authors:
+  - family-names: "Afzal"
+    given-names: "Imran"
+  - family-names: "Guo"
+    given-names: "Jichang"
+  - family-names: "Muhammad"
+    given-names: "Fahad"
+  - family-names: "Siddiqui"
+    given-names: "Fazeela"
+  - family-names: "Zheng"
+    given-names: "Sida"
+  - family-names: "Zhang"
+    given-names: "Yi"
+  - family-names: "Chen"
+    given-names: "Yuqing"
+year: 2026
+license: MIT
+repository-code: "https://github.com/<your-user>/APCF-Net-VisualComputer"

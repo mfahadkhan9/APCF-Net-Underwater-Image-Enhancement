@@ -1,0 +1,37 @@
+project:
+  name: APCF-Net
+  run_name: apcfnet_paired_optional
+  seed: 42
+
+data:
+  train_input_dir: data/paired/train/input
+  train_reference_dir: data/paired/train/reference
+  image_size: 256
+  num_workers: 2
+  extensions: [".jpg", ".jpeg", ".png", ".bmp"]
+
+model:
+  base_channels: 32
+  num_curve_segments: 8
+  use_tca: true
+  use_curve: true
+
+training:
+  epochs: 80
+  batch_size: 4
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  save_every: 10
+  preview_every: 5
+
+loss:
+  lambda_rgb: 1.0
+  lambda_hsv: 1.0
+  lambda_lab: 1.0
+  lambda_perceptual: 0.1
+  use_imagenet_weights: true
+
+paths:
+  checkpoint_dir: saved_models/apcfnet_paired
+  log_dir: logs
+  figure_dir: results/figures

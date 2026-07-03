@@ -1,0 +1,20 @@
+name: apcfnet
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pillow
+  - pyyaml
+  - tqdm
+  - pandas
+  - matplotlib
+  - scikit-image
+  - pip:
+      - torch>=2.1.0
+      - torchvision>=0.16.0
+      - opencv-python>=4.8.0
+      - pytest>=7.4.0

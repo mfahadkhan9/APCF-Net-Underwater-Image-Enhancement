@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apcfnet"
+version = "1.0.0"
+description = "APCF-Net for raw/non-paired underwater image restoration and enhancement"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "APCF-Net authors"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

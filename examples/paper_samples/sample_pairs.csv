@@ -1,0 +1,6 @@
+sample_id,input_image,paper_enhanced_image
+uieb_diver_01,examples/paper_samples/input/uieb_diver_01_input.png,examples/paper_samples/enhanced/uieb_diver_01_enhanced.png
+uieb_coral_02,examples/paper_samples/input/uieb_coral_02_input.png,examples/paper_samples/enhanced/uieb_coral_02_enhanced.png
+uieb_swimmers_03,examples/paper_samples/input/uieb_swimmers_03_input.png,examples/paper_samples/enhanced/uieb_swimmers_03_enhanced.png
+uccs_seafloor_04,examples/paper_samples/input/uccs_seafloor_04_input.png,examples/paper_samples/enhanced/uccs_seafloor_04_enhanced.png
+uccs_rock_05,examples/paper_samples/input/uccs_rock_05_input.png,examples/paper_samples/enhanced/uccs_rock_05_enhanced.png
