@@ -40,7 +40,7 @@ APCF-Net-VisualComputer/
 ├── scripts/                           # training, inference, evaluation, dataset utilities
 ├── src/apcfnet/                       # APCF-Net source package
 ├── tests/                             # smoke tests
-└── journal_materials/                 # code/data availability statements and checklist
+
 ```
 
 ---
